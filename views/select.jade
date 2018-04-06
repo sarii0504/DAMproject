@@ -1,0 +1,56 @@
+doctype html
+//
+  Projection by TEMPLATED
+  templated.co @templatedco
+  Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+html
+    head
+        title Generic - Projection by TEMPLATED
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        link(rel='stylesheet', href='/stylesheets/main.css')
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body(onload="openSelect()").subpage
+        // Header
+        header#header
+            .inner
+                a.logo(href='homepage')
+                    strong Home Media Center
+                    |  by DAM Group
+                nav#nav
+                    a(href='personalcenter?id=#{id}') Personal Center
+                a.navPanelToggle(href='#navPanel')
+                    span.fa.fa-bars
+        // Three
+        section#three.wrapper
+            .inner
+                header.align-center
+                    h2 Query
+                    p The files that you query
+                    div.selectBox
+                        input#textInput(type="text",name="wd")
+                        input.button(value='Select',onclick="selectFile()")
+                h3.align-center Video
+                .box.alt
+                    #Video.row.uniform(class='50%')
+                h3.align-center Audio
+                div(text-align='center')
+                    ul#Audio.align-center
+                h3.align-center Text
+                div(text-align='center')
+                    ul#Text.align-center
+                h3.align-center Image
+                .box.alt
+                    #Image.row.uniform(class='50%')
+                #Catalog.hide=JSON.stringify(catalog)
+    // Scripts
+    script(src='/javascripts/jquery.min.js')
+    script(src='/javascripts/skel.min.js')
+    script(src='/javascripts/util.js')
+    script(src='/javascripts/main.js')
+    script(src='/javascripts/function.js')
+    script(src='/javascripts/json2.js')
+
+//
+   Created by sam on 2017/11/25.
+

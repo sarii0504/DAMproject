@@ -1,0 +1,49 @@
+doctype html
+//
+  Projection by TEMPLATED
+  templated.co @templatedco
+  Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+html
+  head
+    title DAM Project - Login
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='/stylesheets/main.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    footer#footer
+      .inner
+        h3 Welcome
+        form(action='#', method='post')
+          .field
+            label(for='id') User ID
+            input#userid(name='id', type='text', placeholder='User Id')
+          .field
+            label(for='pw') Password
+            input#password(name='pw', type='password', placeholder='Password')
+          br
+          br
+          ul.actions
+            a(href='register')
+              input.button.alt(value='Register')
+            li
+              input.button.alt(value='Login', type='submit')
+
+        .copyright
+          | © DAM project
+    p#id.hide #{status}
+    script.
+      var status = document.getElementById("id").innerText;
+      if (status ==-1)
+        alert("用户名或密码错误,请重试");
+      if(status==-2)
+        alert("用户处于block状态，无法登陆");
+      if(status==-3)
+        alert("用户不存在，请重试");
+
+    // Scripts
+    script(src='/javascripts/jquery.min.js')
+    script(src='/javascripts/skel.min.js')
+    script(src='/javascripts/util.js')
+    script(src='/javascripts/main.js')
+    script(src='/javascripts/function.js')

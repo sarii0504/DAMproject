@@ -1,0 +1,52 @@
+doctype html
+//
+  Projection by TEMPLATED
+  templated.co @templatedco
+  Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+html
+    head
+        title DAM Project - Admin Center
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        link(rel='stylesheet', href='/stylesheets/main.css')
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body(onload="userInfo()")
+        // Header
+        header#header
+            .inner
+                a.logo(href='homepage')
+                    strong Home Media Center
+                    |  by DAM Group
+                nav#nav
+                    a 张豫元
+                    a 朱丹瑜
+                    a 章天乙
+                    a 张月
+                    a 赵云婷
+                a.navPanelToggle(href='#navPanel')
+                    span.fa.fa-bars
+        // Banner
+        section#banner
+            .inner
+                header
+                    h1 Welcome, Admin!
+                .table-wrapper
+                    #data.hide=JSON.stringify(data)
+                    table
+                        thead
+                            tr
+                                th.whiteColor User ID
+                                th.whiteColor User Name
+                                th.whiteColor
+                        tbody#userInfo
+                        tfoot
+
+
+
+        // Scripts
+        script(src='/javascripts/jquery.min.js')
+        script(src='/javascripts/skel.min.js')
+        script(src='/javascripts/util.js')
+        script(src='/javascripts/main.js')
+        script(src='/javascripts/function.js')
+        script(src='/javascripts/json2.js')

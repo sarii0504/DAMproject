@@ -1,0 +1,48 @@
+doctype html
+//
+  Projection by TEMPLATED
+  templated.co @templatedco
+  Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+html
+    head
+        title DAM Project - Personal Center
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        link(rel='stylesheet', href='/stylesheets/main.css')
+    body
+        // Header
+        header#header
+            .inner
+                a.logo(href='homepage')
+                    strong Home Media Center
+                    |  by DAM Group
+                nav#nav
+                    a 张豫元
+                    a 朱丹瑜
+                    a 章天乙
+                    a 张月
+                    a 赵云婷
+                a(href="logout") 注销
+                a.navPanelToggle(href='#navPanel')
+                    span.fa.fa-bars
+        // Banner
+        section#banner
+            .inner
+                header
+                    h1 Welcome, #{name}!
+                .flex
+                    div
+                        h3
+                            a(href='filelistfav?id=#{id}') Favorites
+                        p Collection of the files I like
+                    div
+                        h3
+                            a(href='filelistup?id=#{id}') Uploaded
+                        p Files uploaded by me
+                footer
+                    a.button(href='upload?id=#{id}') Upload a File
+        // Scripts
+        script(src='/javascripts/jquery.min.js')
+        script(src='/javascripts/skel.min.js')
+        script(src='/javascripts/util.js')
+        script(src='/javascripts/main.js')

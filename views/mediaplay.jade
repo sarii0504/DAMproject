@@ -1,0 +1,132 @@
+doctype html
+//
+  Projection by TEMPLATED
+  templated.co @templatedco
+  Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+html
+    head
+        title Media Play
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        link(rel='stylesheet', href='/stylesheets/main.css')
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        style(type='text/css').
+            .apbackground{
+                position: absolute;
+                left:300px;
+                top:80px;
+                right:300px;
+            }
+    body(background='images/banner.jpg',onload="showComments()")
+    body.subpage
+        // Header
+        header#header
+            .inner
+                a.logo(href='homepage')
+                    strong Home Media Center
+                    |  by DAM Group
+                nav#nav
+                    a(href='personalcenter?id=#{id}') Personal Center
+                a.navPanelToggle(href='#navPanel')
+                    span.fa.fa-bars
+        // Three
+
+        section#three.wrapper
+            .center
+                h3#up #{fileName}
+                    p#upid.up 上传者:#{userID}
+                    p#description.description 文件简介:#{description}
+
+        div.hide#type #{fileType}
+        div.hide#src #{src}
+        script.
+            type=document.getElementById("type").innerText;
+
+            if(type==1||type==2){//text
+            }
+            else if(type==3||type==4){//image
+                var img=document.createElement("img");
+                img.setAttribute("src", document.getElementById("src").innerText);
+                var div=document.createElement("div");
+                div.appendChild(img);
+                document.getElementById("up").appendChild(div);
+            }
+            else if(type==5||type==6){//audio
+                var audio=document.createElement("audio");
+                div=document.createElement("div");
+                audio.setAttribute("src",document.getElementById("src").innerText);
+                audio.setAttribute("controls","");
+                div.appendChild(audio);
+                div.className="audio";
+                document.getElementById("up").appendChild(div);
+            }
+            else if(type==7||type==8){//video
+              var video = document.createElement("video");
+              div = document.createElement("div");
+              video.setAttribute("src", document.getElementById("src").innerText);
+              video.setAttribute("controls", "");
+              div.appendChild(video);
+              div.className = "audio";
+              document.getElementById("up").appendChild(div);
+            }
+        footer#footer
+            .inner
+                h3 What do you think
+                form(action='#', method='post')
+                    ul.actions
+                        li
+                            a#likeBtn.button.special(onclick="likeIt()")  #{like}
+                        li
+                            a.button.special(href=src, download='') download
+                        li
+                            a#deleteBtn.button.special(onclick="deleteIt(#{id})") Delete It
+                        li
+                            .bdsharebuttonbox
+                                a.bds_more(href='#', data-cmd='more')
+                                a.bds_tsina(href='#', data-cmd='tsina', title='分享到新浪微博')
+                                a.bds_weixin(href='#', data-cmd='weixin', title='分享到微信')
+                                a.bds_youdao(href='#', data-cmd='youdao', title='分享到有道云笔记')
+                                a.bds_sqq(href='#', data-cmd='sqq', title='分享到QQ好友')
+                            script.
+                              window._bd_share_config = {
+                                "common": {
+                                  "bdSnsKey": {},
+                                  "bdText": "",
+                                  "bdMini": "1",
+                                  "bdMiniList": false,
+                                  "bdPic": "",
+                                  "bdStyle": "1",
+                                  "bdSize": "16"
+                                },
+                                "share": {},
+                                "image": {
+                                  "viewList": ["tsina", "weixin", "youdao", "sqq"],
+                                  "viewText": "分享到：",
+                                  "viewSize": "16"
+                                },
+                                "selectShare": {
+                                  "bdContainerClass": null,
+                                  "bdSelectMiniList": ["tsina", "weixin", "youdao", "sqq"]
+                                }
+                              };with (document)0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+
+
+                    .field
+                        label(for='message') Comments
+                        textarea#message(name='message', rows='6', placeholder='Comments')
+                    ul.actions
+                        input.button.alt(value='Send Comments', onclick="sendComment()")
+
+                    div#commentBox.commentBox
+
+                    div#comments.hide=JSON.stringify(comments)
+        // Scripts
+        script(src='/javascripts/jquery.min.js')
+        script(src='/javascripts/skel.min.js')
+        script(src='/javascripts/util.js')
+        script(src='/javascripts/main.js')
+        script(src='/javascripts/function.js')
+        script(src='/javascripts/json2.js')
+//
+   Created by sam on 2017/11/25.
+

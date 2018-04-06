@@ -1,0 +1,76 @@
+.hide{
+  display:none;
+}
+
+.songList{
+  text-align: center;
+  position:relative;
+  top:10px;
+}
+
+.center{
+  text-align: center !important;
+}
+
+.audio{
+  position:relative;
+  top:100px;
+}
+
+.videoCover{
+  text-align:center;
+  width:150px;
+  border-width:5px;
+  border-style: solid
+}
+
+.whiteColor{
+  color: peachpuff;
+}
+
+.description{
+  font-size:medium;
+}
+.up{
+  font-size:small;
+  text-align: center;
+}
+
+.videoTitle{
+  text-align: center;
+}
+
+.img{
+  text-align:center;
+  width:150px;
+  border-width:5px;
+  border-style: solid
+}
+
+.textList{
+  text-align:center;
+}
+
+.border{
+  border: 5px solid;
+  border:lawngreen;
+}
+
+.textInput{
+  color: #444;
+  background: #eee;
+  border-color: #ccc;
+}
+
+.selectBox{
+  text-align: left;
+  width:20% !important;
+}
+
+.left{
+  text-align:left !important;
+}
+
+.selectBtn{
+  
+}

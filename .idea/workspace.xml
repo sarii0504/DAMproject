@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ddb41f6-9009-458b-9a57-d91194dc53d9" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="57" column="42" lean-forward="false" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+              <folding>
+                <element signature="e#637#1240#0" expanded="false" />
+                <element signature="e#679#779#0" expanded="false" />
+                <element signature="e#1436#1469#0" expanded="false" />
+                <element signature="n#!!block;n#login#0" expanded="false" />
+                <element signature="e#2732#2971#0" expanded="false" />
+                <element signature="e#3024#3098#0" expanded="false" />
+                <element signature="e#3235#3732#0" expanded="false" />
+                <element signature="n#!!block;n#register#0" expanded="false" />
+                <element signature="e#3980#4339#0" expanded="false" />
+                <element signature="e#4398#4759#0" expanded="false" />
+                <element signature="e#4817#5198#0" expanded="false" />
+                <element signature="e#5257#5616#0" expanded="false" />
+                <element signature="n#!!block;n#waterMarkingJPG#0" expanded="false" />
+                <element signature="n#!!block;n#readImage#0" expanded="false" />
+                <element signature="n#!!block;n#readFileByType#0" expanded="false" />
+                <element signature="e#7743#8345#0" expanded="false" />
+                <element signature="e#8405#8790#0" expanded="false" />
+                <element signature="n#!!block;n#blockUser#0" expanded="false" />
+                <element signature="n#!!block;n#unBlockUser#0" expanded="false" />
+                <element signature="n#!!block;n#findNameById#0" expanded="false" />
+                <element signature="n#!!block;n#findAllUsers#0" expanded="false" />
+                <element signature="n#!!block;n#ifLogin#0" expanded="false" />
+                <element signature="e#10250#11246#0" expanded="false" />
+                <element signature="n#!!block;n#findFileNameByID#0" expanded="false" />
+                <element signature="n#!!block;n#findFileByUserID#0" expanded="false" />
+                <element signature="n#!!block;n#findCommentsByID#0" expanded="false" />
+                <element signature="n#!!block;n#likeOrNot#0" expanded="false" />
+                <element signature="e#13358#14412#0" expanded="false" />
+                <element signature="n#!!block;n#deleteFile#0" expanded="false" />
+                <element signature="n#!!block;n#addComment#0" expanded="false" />
+                <element signature="n#!!block;n#likeIt#0" expanded="false" />
+                <element signature="n#!!block;n#dislikeIt#0" expanded="false" />
+                <element signature="n#!!block;n#whichType#0" expanded="false" />
+                <element signature="e#15816#16183#0" expanded="false" />
+                <element signature="n#!!block;n#findFileFav#0" expanded="false" />
+                <element signature="e#16748#17117#0" expanded="false" />
+                <element signature="e#17168#17393#0" expanded="false" />
+                <element signature="e#17450#18155#0" expanded="false" />
+                <element signature="n#!!block;n#addFile#0" expanded="false" />
+                <element signature="n#!!block;n#test#0" expanded="false" />
+                <element signature="e#19016#19092#0" expanded="false" />
+                <element signature="e#19143#19536#0" expanded="false" />
+                <element signature="e#19585#19874#0" expanded="false" />
+                <element signature="n#!!block;n#selectByFileName#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1846">
+              <caret line="71" column="9" lean-forward="false" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/function.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="446" column="26" lean-forward="false" selection-start-line="446" selection-start-column="26" selection-end-line="446" selection-end-column="26" />
+              <folding>
+                <element signature="n#!!block;n#getVideoFile#0" expanded="false" />
+                <element signature="n#!!block;n#showComments#0" expanded="false" />
+                <element signature="n#!!block;n#likeIt#0" expanded="false" />
+                <element signature="n#!!block;n#deleteIt#0" expanded="false" />
+                <element signature="n#!!block;n#showText#0" expanded="false" />
+                <element signature="n#!!block;n#getFavFile#0" expanded="false" />
+                <element signature="n#!!block;n#getUploadFile#0" expanded="false" />
+                <element signature="n#!!block;n#userInfo#0" expanded="false" />
+                <element signature="n#!!block;n#selectFile#0" expanded="false" />
+                <element signature="n#!!block;n#openSelect#0" expanded="false" />
+                <element signature="n#!!block;n#blockUser#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mediaplay.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/mediaplay.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="806">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="personalcenteradm.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/personalcenteradm.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1118">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/upload.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="962">
+              <caret line="37" column="49" lean-forward="false" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="communityimage.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/communityimage.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="728">
+              <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homepage.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/homepage.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="910">
+              <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Pug File" />
+        <option value="package_json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Jade File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>status</find>
+      <find>result</find>
+      <find>if(result</find>
+      <find>findname</find>
+      <find>rows!=</find>
+      <find>rows)</find>
+      <find>&amp;&amp;</find>
+      <find>row</find>
+      <find>rows</find>
+      <find>!err</find>
+      <find>console</find>
+      <find>comment</find>
+      <find>(&quot;/select</find>
+      <find>window</find>
+      <find>personal</find>
+      <find>select</find>
+      <find>align-ce</find>
+      <find>labe</find>
+      <find>req</find>
+      <find>push</find>
+      <find>req=</find>
+      <find>aa</find>
+      <find>prep</find>
+      <find>block</find>
+      <find>update</find>
+      <find>asset</find>
+      <find>jpg</find>
+      <find>whichType</find>
+      <find>alert</find>
+      <find>videoCover</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/views/login.pug" />
+        <option value="$PROJECT_DIR$/views/mainpage.pug" />
+        <option value="$PROJECT_DIR$/views/mainpage.jade" />
+        <option value="$PROJECT_DIR$/views/vedio.jade" />
+        <option value="$PROJECT_DIR$/views/audio.jade" />
+        <option value="$PROJECT_DIR$/views/text.jade" />
+        <option value="$PROJECT_DIR$/views/image.jade" />
+        <option value="$PROJECT_DIR$/views/userHome.jade" />
+        <option value="$PROJECT_DIR$/views/admin.jade" />
+        <option value="$PROJECT_DIR$/views/download.jade" />
+        <option value="$PROJECT_DIR$/routes/db.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/views/layout.jade" />
+        <option value="$PROJECT_DIR$/views/board=image.jade" />
+        <option value="$PROJECT_DIR$/views/board=audio.jade" />
+        <option value="$PROJECT_DIR$/views/board=text.jade" />
+        <option value="$PROJECT_DIR$/views/board=vedio.jade" />
+        <option value="$PROJECT_DIR$/views/userpage.jade" />
+        <option value="$PROJECT_DIR$/views/index.jade" />
+        <option value="$PROJECT_DIR$/views/homepage.html" />
+        <option value="$PROJECT_DIR$/routes/function_s.js" />
+        <option value="$PROJECT_DIR$/views/register.jade" />
+        <option value="$PROJECT_DIR$/views/communityaudio.jade" />
+        <option value="$PROJECT_DIR$/views/communityvideo.jade" />
+        <option value="$PROJECT_DIR$/views/personalcenter.jade" />
+        <option value="$PROJECT_DIR$/views/communitytext.jade" />
+        <option value="$PROJECT_DIR$/views/mediaplayimage.jade" />
+        <option value="$PROJECT_DIR$/views/mediaplaytxt.jade" />
+        <option value="$PROJECT_DIR$/views/mediaplayaudio.jade" />
+        <option value="$PROJECT_DIR$/views/mediaplayvideo.jade" />
+        <option value="$PROJECT_DIR$/views/logout.jade" />
+        <option value="$PROJECT_DIR$/views/login.jade" />
+        <option value="$PROJECT_DIR$/views/filelistup.jade" />
+        <option value="$PROJECT_DIR$/views/filelistfav.jade" />
+        <option value="$PROJECT_DIR$/views/select.jade" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/views/personalcenteradm.jade" />
+        <option value="$PROJECT_DIR$/views/upload.jade" />
+        <option value="$PROJECT_DIR$/views/communityimage.jade" />
+        <option value="$PROJECT_DIR$/views/mediaplay.jade" />
+        <option value="$PROJECT_DIR$/views/homepage.jade" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/function.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SillyAssignmentJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="001" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="001" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="001" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="001" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="001" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="001" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.11.4" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RunManager" selected="Node.js.www">
+    <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/routes">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="www" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="www" working-dir="$PROJECT_DIR$/bin">
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.www" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.index.js" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ddb41f6-9009-458b-9a57-d91194dc53d9" name="Default" comment="" />
+      <created>1509811841433</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509811841433</updated>
+      <workItem from="1509811843942" duration="624000" />
+      <workItem from="1509847901867" duration="682000" />
+      <workItem from="1509877250299" duration="1438000" />
+      <workItem from="1509878708015" duration="1849000" />
+      <workItem from="1510144307951" duration="6138000" />
+      <workItem from="1510204667348" duration="8355000" />
+      <workItem from="1510579593355" duration="4520000" />
+      <workItem from="1510634159203" duration="3370000" />
+      <workItem from="1510640960573" duration="930000" />
+      <workItem from="1510644406595" duration="34790000" />
+      <workItem from="1510683024398" duration="9089000" />
+      <workItem from="1510708633498" duration="7301000" />
+      <workItem from="1510722346342" duration="4243000" />
+      <workItem from="1510728519798" duration="2892000" />
+      <workItem from="1510733212604" duration="359000" />
+      <workItem from="1510748309340" duration="2756000" />
+      <workItem from="1511494605284" duration="428000" />
+      <workItem from="1511499688125" duration="1295000" />
+      <workItem from="1511589204863" duration="6423000" />
+      <workItem from="1511595936578" duration="3310000" />
+      <workItem from="1511677529466" duration="13854000" />
+      <workItem from="1511703129982" duration="14463000" />
+      <workItem from="1511748472603" duration="7317000" />
+      <workItem from="1511769242397" duration="2728000" />
+      <workItem from="1511779710222" duration="10823000" />
+      <workItem from="1511792480053" duration="4129000" />
+      <workItem from="1511834385946" duration="12245000" />
+      <workItem from="1511865968976" duration="2547000" />
+      <workItem from="1511869840387" duration="20449000" />
+      <workItem from="1511931786818" duration="5856000" />
+      <workItem from="1511945086295" duration="1656000" />
+      <workItem from="1511949310482" duration="5354000" />
+      <workItem from="1511959133773" duration="8123000" />
+      <workItem from="1511967930341" duration="5409000" />
+      <workItem from="1512007448070" duration="776000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="216521000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1378" height="780" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17238806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3802164" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39938557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="134" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/index.jade" />
+    <entry file="file://$PROJECT_DIR$/views/login.pug" />
+    <entry file="file://$PROJECT_DIR$/node_modules/body-parser/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3302">
+          <caret line="131" column="34" lean-forward="false" selection-start-line="131" selection-start-column="34" selection-end-line="131" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/mainpage.pug" />
+    <entry file="file://$PROJECT_DIR$/node_modules/body-parser/lib/read.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/mainpage.jade" />
+    <entry file="file://$PROJECT_DIR$/views/package.json" />
+    <entry file="file://$PROJECT_DIR$/routes/db.js" />
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/download.jade" />
+    <entry file="file://$PROJECT_DIR$/views/userpage.jade" />
+    <entry file="file://$PROJECT_DIR$/views/homepage.html" />
+    <entry file="file://$PROJECT_DIR$/views/error.jade" />
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade" />
+    <entry file="file://$PROJECT_DIR$/views/board=text.jade" />
+    <entry file="file://$PROJECT_DIR$/views/board=image.jade" />
+    <entry file="file://$PROJECT_DIR$/views/board=vedio.jade" />
+    <entry file="file://$PROJECT_DIR$/views/board=audio.jade" />
+    <entry file="file://$PROJECT_DIR$/views/admin.jade" />
+    <entry file="file://$PROJECT_DIR$/views/index.jade" />
+    <entry file="file://$PROJECT_DIR$/public/javascripts/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-936">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/json2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/communityvideo.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/function_s.js" />
+    <entry file="file://$PROJECT_DIR$/views/communitytext.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="61" lean-forward="false" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/personalcenter.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/mediaplayvideo.jade" />
+    <entry file="file://$PROJECT_DIR$/views/communityaudio.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/mediaplaytxt.jade" />
+    <entry file="file://$PROJECT_DIR$/views/logout.jade" />
+    <entry file="file://$PROJECT_DIR$/views/register.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/mediaplayaudio.jade" />
+    <entry file="file://$PROJECT_DIR$/views/filelistfav.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="1760" column="17" lean-forward="false" selection-start-line="1760" selection-start-column="17" selection-end-line="1760" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/select.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/filelistup.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/mediaplayimage.jade" />
+    <entry file="file://$PROJECT_DIR$/node_modules/jpeg-js/lib/decoder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15470">
+          <caret line="596" column="42" lean-forward="false" selection-start-line="596" selection-start-column="42" selection-end-line="596" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1846">
+          <caret line="71" column="9" lean-forward="false" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/mediaplay.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/personalcenteradm.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1118">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/upload.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="962">
+          <caret line="37" column="49" lean-forward="false" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/communityimage.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/homepage.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="57" column="42" lean-forward="false" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+          <folding>
+            <element signature="e#637#1240#0" expanded="false" />
+            <element signature="e#679#779#0" expanded="false" />
+            <element signature="e#1436#1469#0" expanded="false" />
+            <element signature="n#!!block;n#login#0" expanded="false" />
+            <element signature="e#2732#2971#0" expanded="false" />
+            <element signature="e#3024#3098#0" expanded="false" />
+            <element signature="e#3235#3732#0" expanded="false" />
+            <element signature="n#!!block;n#register#0" expanded="false" />
+            <element signature="e#3980#4339#0" expanded="false" />
+            <element signature="e#4398#4759#0" expanded="false" />
+            <element signature="e#4817#5198#0" expanded="false" />
+            <element signature="e#5257#5616#0" expanded="false" />
+            <element signature="n#!!block;n#waterMarkingJPG#0" expanded="false" />
+            <element signature="n#!!block;n#readImage#0" expanded="false" />
+            <element signature="n#!!block;n#readFileByType#0" expanded="false" />
+            <element signature="e#7743#8345#0" expanded="false" />
+            <element signature="e#8405#8790#0" expanded="false" />
+            <element signature="n#!!block;n#blockUser#0" expanded="false" />
+            <element signature="n#!!block;n#unBlockUser#0" expanded="false" />
+            <element signature="n#!!block;n#findNameById#0" expanded="false" />
+            <element signature="n#!!block;n#findAllUsers#0" expanded="false" />
+            <element signature="n#!!block;n#ifLogin#0" expanded="false" />
+            <element signature="e#10250#11246#0" expanded="false" />
+            <element signature="n#!!block;n#findFileNameByID#0" expanded="false" />
+            <element signature="n#!!block;n#findFileByUserID#0" expanded="false" />
+            <element signature="n#!!block;n#findCommentsByID#0" expanded="false" />
+            <element signature="n#!!block;n#likeOrNot#0" expanded="false" />
+            <element signature="e#13358#14412#0" expanded="false" />
+            <element signature="n#!!block;n#deleteFile#0" expanded="false" />
+            <element signature="n#!!block;n#addComment#0" expanded="false" />
+            <element signature="n#!!block;n#likeIt#0" expanded="false" />
+            <element signature="n#!!block;n#dislikeIt#0" expanded="false" />
+            <element signature="n#!!block;n#whichType#0" expanded="false" />
+            <element signature="e#15816#16183#0" expanded="false" />
+            <element signature="n#!!block;n#findFileFav#0" expanded="false" />
+            <element signature="e#16748#17117#0" expanded="false" />
+            <element signature="e#17168#17393#0" expanded="false" />
+            <element signature="e#17450#18155#0" expanded="false" />
+            <element signature="n#!!block;n#addFile#0" expanded="false" />
+            <element signature="n#!!block;n#test#0" expanded="false" />
+            <element signature="e#19016#19092#0" expanded="false" />
+            <element signature="e#19143#19536#0" expanded="false" />
+            <element signature="e#19585#19874#0" expanded="false" />
+            <element signature="n#!!block;n#selectByFileName#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="446" column="26" lean-forward="false" selection-start-line="446" selection-start-column="26" selection-end-line="446" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!block;n#getVideoFile#0" expanded="false" />
+            <element signature="n#!!block;n#showComments#0" expanded="false" />
+            <element signature="n#!!block;n#likeIt#0" expanded="false" />
+            <element signature="n#!!block;n#deleteIt#0" expanded="false" />
+            <element signature="n#!!block;n#showText#0" expanded="false" />
+            <element signature="n#!!block;n#getFavFile#0" expanded="false" />
+            <element signature="n#!!block;n#getUploadFile#0" expanded="false" />
+            <element signature="n#!!block;n#userInfo#0" expanded="false" />
+            <element signature="n#!!block;n#selectFile#0" expanded="false" />
+            <element signature="n#!!block;n#openSelect#0" expanded="false" />
+            <element signature="n#!!block;n#blockUser#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

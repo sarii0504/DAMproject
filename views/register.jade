@@ -1,0 +1,45 @@
+doctype html
+//
+  Projection by TEMPLATED
+  templated.co @templatedco
+  Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+html
+  head
+    title DAM Project - Register
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='/stylesheets/main.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    footer#footer
+      .inner
+        h3 Welcome
+        form(action='#', method='post')
+          .field
+            label(for='id') User ID
+            input#userid(name='id', type='text', placeholder='User Id')
+          .field.half.first
+            label(for='name') User Name
+            input#password(name='name', type='text', placeholder='User Name')
+          .field.half
+            label(for='pw') Password
+            input#cpassword(name='pw', type='password', placeholder='Password')
+          br
+          br
+          ul.actions
+            li
+              input.button.alt(value='Register and Login', type='submit')
+        .copyright
+          | © DAM project
+    // Scripts
+
+    p#status.hide #{status}
+    script.
+      var status=document.getElementById("status").innerText;
+      if(status==-1)
+        alert("用户ID被占用,请重试");
+
+    script(src='/javascripts/jquery.min.js')
+    script(src='/javascripts/skel.min.js')
+    script(src='/javascripts/util.js')
+    script(src='/javascripts/main.js')

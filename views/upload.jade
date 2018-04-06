@@ -1,0 +1,61 @@
+doctype html
+//
+  Projection by TEMPLATED
+  templated.co @templatedco
+  Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+html
+    head
+        title Upload File
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        link(rel='stylesheet', href='/stylesheets/main.css')
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body.subpage
+        // Header
+        header#header
+            .inner
+                a.logo(href='homepage')
+                    strong Home Media Center
+                    |  by DAM Group
+                nav#nav
+                    a(href='personalcenter?id=#{id}') Personal Center
+                a.navPanelToggle(href='#navPanel')
+                    span.fa.fa-bars
+        section#three.wrapper
+            .inner
+                header.align-center
+                    h2 Upload a File
+                    p Select a file you wanna upload
+                form#selecttype.wrapper.align-center(method='post',enctype="multipart/form-data")
+                    .inner
+                        input(type='file', name='file',accept="image/bmp,image/jpeg,audio/mp3,audio/wva,video/mp4,vedio.avi,application/msword,text/plain")
+                    br
+                    .select-wrapper
+                        select#demo-category(name='category')
+                            option(value='') - Category -
+                            option(value='1') txt
+                            option(value='2') doc
+                            option(value='3') bmp
+                            option(value='4') jpg
+                            option(value='5') mp3
+                            option(value='6') wav
+                            option(value='7') mp4
+                            option(value='8') avi
+                    br
+                    br
+                    br
+                    textarea#name(name='fileName', placeholder='Name of the file', rows='1')
+                    br
+                    textarea#description(name='description', placeholder='Description', rows='6')
+                    br
+                    .inner
+                        br
+                        input(type="submit",value="UPLOAD")
+                    if status==1
+                      script.
+                        alert("上传成功！")
+        // ScriptsUpload
+        script(src='/javascripts/jquery.min.js')
+        script(src='/javascripts/skel.min.js')
+        script(src='/javascripts/util.js')
+        script(src='/javascripts/main.js')
